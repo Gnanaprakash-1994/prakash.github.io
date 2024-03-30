@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #7cc4a9;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237fcb8b' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+img{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 3px 3px;
+    width: 40%;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px black;
+    border-radius: 5px;
+}
+p{
+    margin-left: 3px;
+    padding: 3px 3px;
+    font-size: medium;
+    font-weight: bold;
+}
+ul li{
+    display: flex;
+    cursor: pointer;
+    line-height: 1.3;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: medium;
+}
+ul li a:hover{
+    color: chartreuse;
+    font-weight: bold;
+}
